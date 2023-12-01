@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Čiselne sustavy</title>
     <link rel="stylesheet" href="styles/cissus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -33,7 +36,84 @@
         <p>znaky: 0,1,2,3,4,5,6,7 <br>
         základ: 8 <br>
         vzťah k dvojkovej sústave: 23 = 8</p>
-        
+        <p> Použivala sa v oblasti informatiky. V 80 rokoch 20 storočia sa využivala <br>
+        kvôli uľahčeniu komunikácie s počítačmi. Používatelia totižto najprv  <br>
+        komunikovali s počítačmi priamo v binárnom kóde, čo bolo veľmi nepraktické.</p>
+        <p>V súčasnosti ju v komunikácii s počítačom nahradila hexadecimálna čis. sús</p>
+        <hr>
+        <p><strong>Desiatková (dekadická)</strong> sústava použiva 10 základných číslic 0 až 9. <br>
+        Keď zapišeme číslo 100, znamená to: <br>
+        Inými slovami nula stojí na mieste jednotiek, druha na mieste desiatok <br>
+        a jednička na mieste stoviek.</p>
+        <p>Sila šestnástkovej sústavy spočíva v jednoduchšom zápise čísla z dvojkovej sus.</p>
+        <p>Tak ako dvojková aj ona sa použiva pri práci s počítačmi. Do ôsmich bitov <br>
+        zarodených zasebou sa dá pomocou jednotiek a núl zápisať číslo 0 <br>
+        (osem nul) do 255 (osem jednotiek). Spolu je 256 stavov. A čislo 256 sa dá <br>
+        tiež napísať ako 162.</p>
+        <p>Pre číslice od 10 do 15 si vypomáhame písmenami A až F, viď tabuľka:</p>
+        <table >
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+        </table>
+        <p>znaky: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F <br>
+        základ: 16 <br>
+        vzťah k dvojkovej sústave: 24 = 16</p>
+        <hr>
+        <h3>Prevody</h3>
+        <p>Prevod z <b>desiatkovej sústavy do dvojkovej</b> a naopak: <br>
+        napr. : 213: 2 = 106 zv.1 <br>
+        106:2 = 53 zv. 0 <br>
+        53 : 2 = 26 zv. 1 <br>
+        26 : 2 = 13 zv. 0 <br>
+        13 : 2 = 6 zv. 1 <br>
+        6 : 2 = 3 zv. 0 <br>
+        3 : 2 = 1 zv. 1 <br>
+        1: 2 = 0 zv. 1 br:
+        213<sub>10</sub>= 11010101<sub>2</sub> <br>
+        a naopak: <br>
+        1 1 0 1 0 1 0 1 <br>
+        2<sup>7</sup>+ 2<sup>6</sup>+ 2<sup>5</sup>+ 2<sup>4</sup>+ 2<sup>3</sup> + 2<sup>2</sup> + 2<sup>1</sup>+ 2<sup>0</sup><br>
+        1*128 + 1*64 + 0*32 + 1*16 + 0*8 + 1*4 + 0*2 + 1*1 <br>
+        128 + 64 + 0 + 16 + 0 + 4 + 0 + 1 = 213</p>
+        <p>Prevod z desiatkovej sústavy do osmičkovej a naopak: <br>
+        napr. : 213 : 8 = 26 zv. 5 <br>
+        26:8 = 3 zv.2 <br>
+        3 : 8 = 0 zv. 3 <br>
+        213<sub>10</sub> = 325<sub>8</sub></p>
     </div>
 </body>
 </html>
