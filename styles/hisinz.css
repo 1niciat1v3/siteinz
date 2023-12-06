@@ -1,0 +1,26 @@
+body{
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #7071E8;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+.header{
+    background-color: #ECF4D6;
+    margin: 0px;
+    padding: 1px;
+    
+}
+.main{
+    background-color: #9AD0C2;
+    padding: 1px;
+}
+.number{
+    color: #7071E8;
+}
